@@ -8,7 +8,7 @@ super + Return
 
 # program launcher
 super + {d}
-	dmenu_run
+	dmenu_run -l 20
 
 # browser 
 super + {b}
