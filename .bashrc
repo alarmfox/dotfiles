@@ -78,10 +78,8 @@ fi
 eval $(keychain --eval --quiet rpi github)
 
 ### nnn
-export NNN_BMS="h:~;d:~/Documents;D:~/Downloads/;p:~/Pictures;c:~/.config"
+export NNN_BMS="h:~;d:~/Downloads/;p:~/Pictures;c:~/.config"
 export NNN_PLUG='f:finder;m:nmount'
-export NNN_FIFO=/tmp/nnn.fifo
-export VISUAL=ewrap.sh
 
 # trash cli
 export NNN_TRASH=1
@@ -94,6 +92,7 @@ alias nnn='nnn -de'
 
 # editor 
 export EDITOR=vim
+export TERMINAL=alacritty
 
 # alias
 alias l='ls -l'
