@@ -71,7 +71,7 @@ super + {p,b,comma,period}
 	bspc node -f @{parent,brother,first,second}
 
 # focus the next/previous window in the current desktop
-super + {_,shift + }c
+super + {_,shift + }v
 	bspc node -f {next,prev}.local.!hidden.window
 
 # focus the next/previous desktop in the current monitor
@@ -162,5 +162,5 @@ super + x
 	$HOME/scripts/dmenu/exit.sh
 
 # edit config
-super + z
+super +  c
 	$HOME/scripts/dmenu/config.sh
