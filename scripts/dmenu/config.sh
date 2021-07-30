@@ -20,7 +20,7 @@ declare -a options=(
 
 choice=$(printf "%s\n" "${options[@]}" | $DMENU -p "Edit config:")
 
-if [ "$choice" == "quit" or -n "$choice" ];
+if [ "$choice" == "quit" -o -z "$choice" ];
 then
   exit 1
 fi
