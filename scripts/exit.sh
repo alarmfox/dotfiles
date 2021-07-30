@@ -42,7 +42,7 @@ case "$choice" in
   'Logout')
     if [ $(echo -e 'No\nYes' | $DMENU -p "${choice}?") == "Yes" ]; then
       for manager in "${MANAGERS[@]}"; do 
-        killall "${manager}" || output "Process ${manager} was not running."
+        killall "${manager}"
       done
     fi
     ;;
