@@ -8,7 +8,7 @@ super + Return
 
 # program launcher
 super + {d}
-	dmenu_run -l 20
+	dmenu_run -l 5 -p "Run:"
 
 # browser 
 super + {b}
@@ -140,15 +140,21 @@ XF86AudioLowerVolume
 XF86AudioRaiseVolume
 	amixer set Master 5%+
 XF86AudioMute
-        amixer set Master toggle
+  amixer set Master toggle
 
 # lockscreen
 XF86ScreenSaver
 	betterlockscreen -l
 
+# touchpad toggle
+XF86TouchpadToggle 
+	$HOME/scripts/toggle-touchpad.sh
+
 # screenshot
 Print
-  maim -u | tee ~/Pictures/screenshots/$(date +%s).png | xclip -selection clipboard -t image/png -i
+  maim -u | xclip -selection clipboard -t image/png -i
 
 super + Print
-  maim -s -u | tee ~/Pictures/screenshots/$(date +%s).png | xclip -selection clipboard -t image/png
+  maim -u | tee ~/Pictures/screenshots/$(date +%s).png | xclip -selection clipboard -t image/png -i
+
+
