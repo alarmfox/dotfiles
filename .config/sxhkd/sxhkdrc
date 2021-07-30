@@ -159,6 +159,8 @@ super + Print
 
 # exit menu
 super + x
-	$HOME/scripts/exit.sh
+	$HOME/scripts/dmenu/exit.sh
 
-
+# edit config
+super + z
+	$HOME/scripts/dmenu/config.sh
