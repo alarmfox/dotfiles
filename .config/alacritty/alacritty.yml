@@ -31,9 +31,6 @@
   # fall back to the window manager's recommended size.
   #dimensions:
   #  columns: 0
-  #  lines: 0
-
-  # Window position (changes require restart)
   #
   # Specified in number of pixels.
   # If the position is not set, the window manager will handle the placement.
