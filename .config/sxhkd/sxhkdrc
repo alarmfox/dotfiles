@@ -157,4 +157,8 @@ Print
 super + Print
   maim -u | tee ~/Pictures/screenshots/$(date +%s).png | xclip -selection clipboard -t image/png -i
 
+# exit menu
+super + x
+	$HOME/scripts/exit.sh
+
 
