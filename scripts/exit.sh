@@ -8,10 +8,10 @@ REBOOT="systemctl reboot"
 
 # options
 declare -a options=(
-  "Poweroff"
+  "Lock"
   "Logout"
   "Reboot"
-  "Lock"
+  "Poweroff"
   "Quit"
 )
 
