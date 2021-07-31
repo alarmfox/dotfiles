@@ -10,10 +10,11 @@ declare -a options=(
   "bash $HOME/.bashrc"
   "bash-profile $HOME/.bash_profile"
   "bspwm $CONFIG_DIR/bspwm/bspwmrc"
+	"neovim $CONFIG_DIR/nvim/nvim.init"
   "picom $CONFIG_DIR/picom/picom.conf"
   "polybar $CONFIG_DIR/polybar/config"
   "polybar-launch $CONFIG_DIR/polybar/launch.sh"
-  "sxhkd $CONFIG_DIR/sxhkd/sxhkdrc" 
+  "sxhkd $CONFIG_DIR/sxhkd/sxhkdrc"
   "zathura $CONFIG_DIR/zathura/zathurarc"
   "quit"
 )
