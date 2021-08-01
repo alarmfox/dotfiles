@@ -57,7 +57,7 @@ export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:$HOME/go/bin
  
 # scripts
-export PATH=$PATH:/home/giuseppe/.config/scripts/
+export PATH=$PATH:/home/giuseppe/scripts/
 
 # nvm
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
