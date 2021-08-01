@@ -1,16 +1,16 @@
 #! /usr/bin/env sh
 
 EDITOR="vim"
-DMENU="dmenu -i -l 10"
+DMENU="dmenu -i -l 20"
 CONFIG_DIR="$HOME/.config"
-TERMINAL="alacritty"
+TERMINAL="alacritty -e"
 
 declare -a options=(
   "alacritty $CONFIG_DIR/alacritty/alacritty.yml"
   "bash $HOME/.bashrc"
   "bash-profile $HOME/.bash_profile"
   "bspwm $CONFIG_DIR/bspwm/bspwmrc"
-	"neovim $CONFIG_DIR/nvim/nvim.init"
+	"neovim $CONFIG_DIR/nvim/init.vim"
   "picom $CONFIG_DIR/picom/picom.conf"
   "polybar $CONFIG_DIR/polybar/config"
   "polybar-launch $CONFIG_DIR/polybar/launch.sh"
@@ -19,7 +19,7 @@ declare -a options=(
   "quit"
 )
 
-choice=$(printf "%s\n" "${options[@]}" | $DMENU -p "Edit config:")
+choice=$(printf "%s\n" "${options[@]}" | $DMENU -p "Edit config:" $@)
 
 if [ "$choice" == "quit" -o -z "$choice" ];
 then
@@ -28,4 +28,4 @@ fi
 
 path=$(echo "$choice" | awk {'print $2'})
 
-$TERMINAL -e $EDITOR $path
+${TERMINAL} "$EDITOR" "$path"
