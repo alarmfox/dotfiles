@@ -97,5 +97,4 @@ export TERMINAL=alacritty
 # alias
 alias l='ls -l'
 alias ssh='TERM=xterm ssh'
-alias code='vscodium'
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
