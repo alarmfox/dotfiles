@@ -1,7 +1,7 @@
 #! /usr/bin/env sh
 
 # CMD
-DMENU="dmenu -i" # -i case insensity
+DMENU="dmenu -i -l 5" # -i case insensity
 LOCKSCREEN="betterlockscreen -l"
 POWEROFF="systemctl poweroff"
 REBOOT="systemctl reboot"
