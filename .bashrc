@@ -75,7 +75,7 @@ if [[ ! "$SSH_AUTH_SOCK" ]]; then
 fi
 
 # keychain
-eval $(keychain --eval --quiet rpi github)
+eval $(keychain --eval --quiet rpi github gitlab_work)
 
 ### nnn
 export NNN_BMS="h:~;d:~/Downloads/;p:~/Pictures;c:~/.config"
