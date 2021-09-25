@@ -15,3 +15,6 @@ bspc config gapless_monocle      true
 
 bspc rule -a Screenkey manage=off
 bspc rule -a Zathura state=tiled
+
+# GtkFileChooserDialog
+bspc config external_rules_command ~/.config/bspwm/external_rules
