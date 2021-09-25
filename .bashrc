@@ -53,3 +53,6 @@ export TERMINAL=alacritty
 alias l='ls -l'
 alias ssh='TERM=xterm ssh'
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+alias code='vscodium'
+
+eval "$(pyenv init -)"

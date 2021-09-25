@@ -7,3 +7,7 @@ if status is-interactive
        end
       end
 end
+
+status is-login; and pyenv init --path | source
+status is-interactive; and pyenv init - | source
+
