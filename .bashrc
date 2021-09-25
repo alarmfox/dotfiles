@@ -5,6 +5,9 @@ export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
+# local programs
+export PATH=$PATH:$HOME/.local/bin
+
 # GO path
 export PATH=$PATH:/usr/local/go/bin
 
@@ -12,7 +15,10 @@ export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:$HOME/go/bin
  
 # scripts
-export PATH=$PATH:/home/giuseppe/scripts/
+export PATH=$PATH:$HOME/scripts
+
+# Pyenv shims
+export PATH=$PATH:$PYENV_ROOT/shims
 
 # nvm
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
