@@ -1,0 +1,8 @@
+{
+    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.colorTheme": "Atom One Dark",
+    "todo-tree.tree.showScanModeButton": false,
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on"
+}
