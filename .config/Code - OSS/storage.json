@@ -3,14 +3,17 @@
     "openedPathsList": {
         "entries": [
             {
+                "folderUri": "file:///home/giuseppe/dev/work/sst/analytics"
+            },
+            {
                 "folderUri": "file:///home/giuseppe/dev/work/sst/tracking-be"
             }
         ]
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/giuseppe/dev/work/sst/tracking-be",
-            "backupPath": "/home/giuseppe/.config/Code - OSS/Backups/17867e07ad25c1eec7de1385838df301",
+            "folder": "file:///home/giuseppe/dev/work/sst/analytics",
+            "backupPath": "/home/giuseppe/.config/Code - OSS/Backups/f8584edcdf4853eff4ba6b9598779ca7",
             "uiState": {
                 "mode": 1,
                 "x": 14,
@@ -55,8 +58,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -65,7 +67,18 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/giuseppe/dev/work/sst/tracking-be",
+                                        "fsPath": "/home/giuseppe/dev/work/sst/analytics",
+                                        "external": "file:///home/giuseppe/dev/work/sst/analytics",
+                                        "path": "/home/giuseppe/dev/work/sst/analytics",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/dev/work/sst/analytics"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/giuseppe/dev/work/sst/tracking-be",
                                         "path": "/home/giuseppe/dev/work/sst/tracking-be",
                                         "scheme": "file"
@@ -110,11 +123,13 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save"
+                        "label": "&&Save",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As..."
+                        "label": "Save &&As...",
+                        "enabled": false
                     },
                     {
                         "id": "saveAll",
@@ -186,11 +201,13 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File"
+                        "label": "Re&&vert File",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor"
+                        "label": "&&Close Editor",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeFolder",
@@ -239,11 +256,13 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find"
+                        "label": "&&Find",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace"
+                        "label": "&&Replace",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -405,8 +424,7 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel",
-                                    "checked": true
+                                    "label": "Show &&Panel"
                                 },
                                 {
                                     "id": "workbench.action.toggleEditorVisibility",
@@ -560,7 +578,7 @@
                     {
                         "id": "editor.action.toggleWordWrap",
                         "label": "&&Word Wrap",
-                        "checked": true
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.toggleMinimap",
@@ -596,8 +614,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -914,7 +931,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
