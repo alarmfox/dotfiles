@@ -3,22 +3,37 @@
     "openedPathsList": {
         "entries": [
             {
-                "folderUri": "file:///home/giuseppe/dev/work/sst/analytics"
+                "folderUri": "file:///home/giuseppe/dev/work/sst/analytics-fe"
+            },
+            {
+                "folderUri": "file:///home/giuseppe/Downloads/linux-4.9.285"
+            },
+            {
+                "folderUri": "file:///home/giuseppe/dev/work/sst/dashboard-be"
+            },
+            {
+                "folderUri": "ssh://ucs-ubuntu/home/gematica/Scrivania/tracking-service/analytics-fe"
             },
             {
                 "folderUri": "file:///home/giuseppe/dev/work/sst/tracking-be"
+            },
+            {
+                "folderUri": "file:///home/giuseppe"
+            },
+            {
+                "folderUri": "file:///home/giuseppe/dev/work/sst/analytics"
             }
         ]
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/giuseppe/dev/work/sst/analytics",
-            "backupPath": "/home/giuseppe/.config/Code - OSS/Backups/f8584edcdf4853eff4ba6b9598779ca7",
+            "folder": "file:///home/giuseppe/dev/work/sst/analytics-fe",
+            "backupPath": "/home/giuseppe/.config/Code - OSS/Backups/b81284c1745446f507ab4a95861c13db",
             "uiState": {
                 "mode": 1,
-                "x": 14,
+                "x": 718,
                 "y": 39,
-                "width": 1338,
+                "width": 634,
                 "height": 715
             }
         },
@@ -52,13 +67,14 @@
                         "label": "Open Wor&&kspace..."
                     },
                     {
-                        "id": "submenuitem.29",
+                        "id": "submenuitem.30",
                         "label": "Open &&Recent",
                         "submenu": {
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -67,13 +83,46 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/giuseppe/dev/work/sst/analytics",
-                                        "external": "file:///home/giuseppe/dev/work/sst/analytics",
-                                        "path": "/home/giuseppe/dev/work/sst/analytics",
+                                        "fsPath": "/home/giuseppe/dev/work/sst/analytics-fe",
+                                        "external": "file:///home/giuseppe/dev/work/sst/analytics-fe",
+                                        "path": "/home/giuseppe/dev/work/sst/analytics-fe",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/dev/work/sst/analytics"
+                                    "label": "~/dev/work/sst/analytics-fe"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/giuseppe/Downloads/linux-4.9.285",
+                                        "path": "/home/giuseppe/Downloads/linux-4.9.285",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Downloads/linux-4.9.285"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/giuseppe/dev/work/sst/dashboard-be",
+                                        "path": "/home/giuseppe/dev/work/sst/dashboard-be",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/dev/work/sst/dashboard-be"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/home/gematica/Scrivania/tracking-service/analytics-fe",
+                                        "scheme": "ssh",
+                                        "authority": "ucs-ubuntu"
+                                    },
+                                    "enabled": true,
+                                    "label": "ssh://ucs-ubuntu/home/gematica/Scrivania/tracking-service/analytics-fe [SSH FS]"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -85,6 +134,28 @@
                                     },
                                     "enabled": true,
                                     "label": "~/dev/work/sst/tracking-be"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/giuseppe",
+                                        "path": "/home/giuseppe",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/giuseppe"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/giuseppe/dev/work/sst/analytics",
+                                        "path": "/home/giuseppe/dev/work/sst/analytics",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/dev/work/sst/analytics"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -123,13 +194,11 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save",
-                        "enabled": false
+                        "label": "&&Save"
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As...",
-                        "enabled": false
+                        "label": "Save &&As..."
                     },
                     {
                         "id": "saveAll",
@@ -144,7 +213,7 @@
                         "label": "A&&uto Save"
                     },
                     {
-                        "id": "submenuitem.28",
+                        "id": "submenuitem.29",
                         "label": "&&Preferences",
                         "submenu": {
                             "items": [
@@ -155,6 +224,10 @@
                                 {
                                     "id": "settings.filterByOnline",
                                     "label": "&&Online Services Settings"
+                                },
+                                {
+                                    "id": "settings.filterByTelemetry",
+                                    "label": "Telemetry Settings"
                                 },
                                 {
                                     "id": "workbench.view.extensions",
@@ -201,13 +274,11 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File",
-                        "enabled": false
+                        "label": "Re&&vert File"
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor",
-                        "enabled": false
+                        "label": "&&Close Editor"
                     },
                     {
                         "id": "workbench.action.closeFolder",
@@ -256,13 +327,11 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find",
-                        "enabled": false
+                        "label": "&&Find"
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace",
-                        "enabled": false
+                        "label": "&&Replace"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -383,7 +452,7 @@
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "submenuitem.19",
+                        "id": "submenuitem.20",
                         "label": "&&Appearance",
                         "submenu": {
                             "items": [
@@ -465,7 +534,7 @@
                         }
                     },
                     {
-                        "id": "submenuitem.26",
+                        "id": "submenuitem.27",
                         "label": "Editor &&Layout",
                         "submenu": {
                             "items": [
@@ -605,7 +674,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -614,13 +684,14 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "submenuitem.31",
+                        "id": "submenuitem.32",
                         "label": "Switch &&Editor",
                         "submenu": {
                             "items": [
@@ -669,7 +740,7 @@
                         }
                     },
                     {
-                        "id": "submenuitem.32",
+                        "id": "submenuitem.33",
                         "label": "Switch &&Group",
                         "submenu": {
                             "items": [
@@ -755,28 +826,23 @@
                     },
                     {
                         "id": "editor.action.revealDefinition",
-                        "label": "Go to &&Definition",
-                        "enabled": false
+                        "label": "Go to &&Definition"
                     },
                     {
                         "id": "editor.action.revealDeclaration",
-                        "label": "Go to &&Declaration",
-                        "enabled": false
+                        "label": "Go to &&Declaration"
                     },
                     {
                         "id": "editor.action.goToTypeDefinition",
-                        "label": "Go to &&Type Definition",
-                        "enabled": false
+                        "label": "Go to &&Type Definition"
                     },
                     {
                         "id": "editor.action.goToImplementation",
-                        "label": "Go to &&Implementations",
-                        "enabled": false
+                        "label": "Go to &&Implementations"
                     },
                     {
                         "id": "editor.action.goToReferences",
-                        "label": "Go to &&References",
-                        "enabled": false
+                        "label": "Go to &&References"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -876,7 +942,7 @@
                         "label": "Toggle &&Breakpoint"
                     },
                     {
-                        "id": "submenuitem.27",
+                        "id": "submenuitem.28",
                         "label": "&&New Breakpoint",
                         "submenu": {
                             "items": [
@@ -1495,10 +1561,10 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 187,
+            "sideBarWidth": 197,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
-    "pickerWorkingDir": "/home/giuseppe/dev/work/sst"
+    "pickerWorkingDir": "/home/giuseppe/Downloads"
 }

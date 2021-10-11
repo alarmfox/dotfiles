@@ -4,5 +4,17 @@
     "terminal.integrated.defaultProfile.linux": "fish",
     "editor.tabSize": 2,
     "editor.wordWrap": "on",
-    "workbench.colorTheme": "Atom One Dark"
+    "workbench.colorTheme": "Atom One Dark",
+    "sshfs.configs": [
+        {
+            "name": "ucs-ubuntu",
+            "label": "UCS-Ubuntu",
+            "host": "192.168.99.236",
+            "root": "/home/gematica/Scrivania/tracking-service",
+            "agent": "$SSH_AUTH_SOCK",
+            "username": "gematica",
+            "privateKeyPath": "/home/giuseppe/.ssh/ucs_ubuntu",
+            "terminalCommand": "/usr/bin/bash"
+        }
+    ]
 }

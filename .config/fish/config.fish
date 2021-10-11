@@ -8,6 +8,15 @@ if status is-interactive
       end
 end
 
+# Install NVM manually (https://github.com/creationix/nvm)
+# Install bass (https://github.com/edc/bass)
+# Add code below to your config.fish
+
+function nvm
+   bass source ~/.nvm/nvm.sh --no-use ';' nvm $argv
+end
+
+nvm use default --silent
 status is-login; and pyenv init --path | source
 status is-interactive; and pyenv init - | source
 

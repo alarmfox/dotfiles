@@ -27,6 +27,13 @@ primary = '0x123e7c'
 secondary = #e60053
 alert = #bd2c40
 
+[bar/top_external]
+bottom = false
+monitor = DP1
+
+modules-left = bspwm
+;modules-right = keyboard volume datetime powermenu
+
 [bar/top]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%

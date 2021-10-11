@@ -36,7 +36,7 @@ if [[ ! "$SSH_AUTH_SOCK" ]]; then
 fi
 
 # keychain
-eval $(keychain --eval --quiet rpi github gitlab_work)
+eval $(keychain --eval --quiet github gitlab_work)
 
 ### nnn
 export NNN_BMS="h:~;d:~/Downloads/;p:~/Pictures;c:~/.config"
@@ -59,6 +59,6 @@ export TERMINAL=alacritty
 alias l='ls -l'
 alias ssh='TERM=xterm ssh'
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
-alias code='vscodium'
 
 eval "$(pyenv init -)"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
